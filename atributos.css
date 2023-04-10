@@ -43,7 +43,6 @@ nav{
   box-shadow: 1px 1px 5px;
 }
 
-
 nav ul{
   float: right;
   margin-right: 50px;
@@ -82,22 +81,49 @@ li a:hover{
     }
 }
 
-@media (max-width: 858px){
-
+@media (max-width: 992px){
+  nav ul li a{
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+  nav ul{
+    margin-right: 0px;
+  }
 }
 
-.welcome-about {
-    padding-bottom: 100px;
-    padding-top: 90px;
-}
 
-@media (max-width: 767px){
+@media (max-width: 768px){
 .about-img {
     border-right: medium none;
     text-align: center;
 }
+nav ul li a{
+  font-size: 14px;
+  padding: 4px 6px;
 }
+nav ul{
+  margin-right: 0px;
+}
+}
+
+@media (max-width: 576px){
+  .about-img {
+      border-right: medium none;
+      text-align: center;
+  }
+  nav ul li a{
+    font-size: 12px;
+    padding: 2px 3px;
+  }
+  nav ul{
+    margin-right: 0px;
+  }
+  }
 /* Columnas descripcion botox,acido hialuronico y prp */
+.welcome-about {
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
 
 .column {
   flex: 1;
@@ -225,10 +251,7 @@ footer{
   background: #e1e1e1 none repeat scroll 0 0;
   padding: 20px;
 }
-.copyright > p {
-  margin-bottom: 0;
-}
-  
+ 
   /* Estilo básico para el formulario */
 
 #Formulario {
