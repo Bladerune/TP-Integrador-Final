@@ -13,6 +13,14 @@
   box-shadow: 1px 1px 5px;
   }
 
+.navbar-brand {
+  margin-left: 80px;
+}
+
+.navbar-nav {
+  margin-right: 80px;
+}
+
 .nav-item a:hover{
   background: #ccae93;
   border-radius: 5px;
