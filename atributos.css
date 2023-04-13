@@ -5,13 +5,10 @@
   list-style: none;
   box-sizing: border-box;
 }
-.d-flex {
-  margin-right: 150px;
-}
 
 .navbar {
   box-shadow: 1px 1px 5px;
-  }
+}
 
 .navbar-brand {
   margin-left: 80px;
@@ -31,7 +28,7 @@
 .nav-item {
   text-decoration: none;
   color: black;
-  }
+}
 
 .nav-item li{
   text-align: center;
@@ -46,9 +43,11 @@
 
 section {
   margin: 50px 0 60px;
-  }
+}
 
-  
+.Description {
+  margin: 50px 0 60px;
+}
 
 /*
 h2 {
@@ -68,7 +67,7 @@ h2 {
 }
 
 */
-
+/*
 .enlace {
     display: flex;
     align-items: last baseline;
@@ -80,7 +79,7 @@ h2 {
     font-weight: bold;
     font-size: 2 rem;
   }
-
+*/
 
 
 
