@@ -47,7 +47,7 @@ section {
 }
 /* espaciado bienvenida*/
 .Description {
-  margin: 50px 0 60px;
+  margin: 80px 0 50px;
 }
 
 /*Estilo seccion Description*/
@@ -60,6 +60,38 @@ section {
 .column p {
  padding: 20px;
 }
+
+/* estilos a Estadisticas*/
+.fun-fact {
+  margin-bottom: 50px;
+  padding: 100px;
+  background-color: #ccae93;
+}
+.fun-icon a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  height: 68px;
+  line-height: 68px;
+  width: 68px;
+}
+.single-fun-fact p {
+  color: #fff;
+  font-size: 42px;
+  font-weight: bold;
+}
+.single-fun-fact h5 {
+  color: #fff;
+  display: inline-block;
+  line-height: 16px;
+  margin-bottom: 0;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+
 
 
 /*
@@ -189,11 +221,7 @@ nav ul li a{
   margin-bottom: 5px;
 }
 
-.fun-fact {
-  margin-bottom: 50px;
-  padding: 100px;
-  background-color: #ccae93;
-}
+
 
 footer{
   margin-top: 100px;
@@ -206,29 +234,7 @@ footer{
   margin-left: 250px;
 }
 
-.fun-icon a {
-  border: 1px solid #fff;
-  border-radius: 50%;
-  color: #fff;
-  display: inline-block;
-  font-size: 30px;
-  height: 68px;
-  line-height: 68px;
-  width: 68px;
-}
-.single-fun-fact p {
-  color: #fff;
-  font-size: 42px;
-  font-weight: bold;
-}
-.single-fun-fact h5 {
-  color: #fff;
-  display: inline-block;
-  line-height: 16px;
-  margin-bottom: 0;
-  margin-top: 8px;
-  text-transform: uppercase;
-}
+
 .text-center {
   text-align: center!important;
 }
