@@ -10,41 +10,37 @@
 .navbar {
   box-shadow: 1px 1px 5px;
 }
-
 .navbar-brand {
   margin-left: 80px;
 }
-
 .navbar-nav {
   margin-right: 80px;
 }
-
 .nav-item a:hover{
   background: #ccae93;
   border-radius: 5px;
   transition: .5s;
   color: rgb(255, 255, 255);
 }
-
 .nav-item {
   text-decoration: none;
   color: black;
 }
-
 .nav-item li{
   text-align: center;
 }
-
 .nav-item li:hover{
   background: #ccae93;
   border-radius: 5px;
   transition: .5s;
   color: rgb(255, 255, 255);
 }
+
 /* espaciado carrucel*/
 section {
   margin: 50px 0 60px;
 }
+
 /* espaciado bienvenida*/
 .Description {
   margin: 80px 0 50px;
@@ -56,7 +52,6 @@ section {
   padding: 10px;
   text-align: center;
 }
-
 .column p {
  padding: 20px;
 }
