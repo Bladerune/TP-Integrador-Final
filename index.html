@@ -15,91 +15,49 @@
 <!-- para que aparezcan los comentarios ctrol+k control+c 
   que capo soy -->
 <body>
-
-  <header>
+ <header>
     <!-- Menu pricipal -->
-    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #ffffff;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img src="IMG/marca.png" alt="logotipo" width="30" height="30" class="d-inline-block align-text-top">
-                Dra.Irrazabal</a>
-                <div class="d-flex">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Tratamientos
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="nav-item dropdown" href="#">Botox</a></li>
-                    <li><a class="nav-item dropdown" href="#">Hialuronico</a></li>
-                    <li><a class="nav-item dropdown" href="#">PRP</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffffff;">
+      <a class="navbar-brand" href="#">
+          <img src="IMG/marca.png" alt="logotipo" width="30" height="30" class="d-inline-block align-text-top">
+              Dra. Irrazabal
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dra. Irrazabal</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tratamientos
+                </a>
+                <ul class="dropdown-menu" style="background-color: #ffffff;">
+                  <li><a class="dropdown-item" href="#">Botox</a></li>
+                  <li><a class="dropdown-item" href="#">Hialuronico</a></li>
+                  <li><a class="dropdown-item" href="#">PRP</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
                   <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
+              </li>
+              <li class="nav-item">
                   <a class="nav-link" href="#">Contacto</a>
-                </li>
-              </ul>
-            </div>  
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </nav>
-
-
-
-<!-- 
-    <nav class="navbar fixed-top">
-      <div class="container">
-          <div class ="logo">
-              <img src="IMG/marca.png" alt="logotipo" >
-              <h2 class="animate__animated animate__bounce">Dra.Irrazabal</h2>
-          </div>
-            <ul class="menu">
-                  <li><a href="#about-desc">Inicio</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-item dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Tratamientos
-                    </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="nav-item dropdown" href="#">Botox</a></li>
-                    <li><a class="nav-item dropdown" href="#">Hialuronico</a></li>
-                    <li><a class="nav-item dropdown" href="#">PRP</a></li>
-                  </ul>
-                </li>
-                <li><a href="#card">Nosotros</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-item dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Contacto
-                    </a>
-                  <ul class="dropdown-menu">
-                    <li><acl ass="fa-brands fa-whatsapp fa-bounce fa-lg" style="color: #37e407;"></i>
-                      </a>
-                    </li>
-                    <li><a class="fa-brands fa-facebook-messenger fa-bounce fa-lg" style="color: #195fd7;"></i>
-                      </a>
-                    </li>
-                    <li><a class="fa-brands fa-instagram fa-bounce fa-lg" style="color: #db0fd5;"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-            </ul>
-      </div>
-    </nav>
-     -->
-  </header>
-
-
+  </nav>
+</header>
     <!-- Carrucel imagenes -->
 <section>
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -124,8 +82,6 @@
         </button>
       </div>
 </section>
-
-
 <!-- Bienvenida -->
 <div class="welcome-about">
   <div class="container">
