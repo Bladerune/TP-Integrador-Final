@@ -1,10 +1,52 @@
-header{
-  padding: 30px;
+* {
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.d-flex {
+  margin-right: 150px;
+}
+
+.navbar {
+  box-shadow: 1px 1px 5px;
   }
 
+.nav-item a:hover{
+  background: #ccae93;
+  border-radius: 5px;
+  transition: .5s;
+  color: rgb(255, 255, 255);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  }
+
+.nav-item li{
+  text-align: center;
+}
+
+.nav-item li:hover{
+  background: #ccae93;
+  border-radius: 5px;
+  transition: .5s;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  margin: 50px 0 60px;
+  }
+
+  
+
+/*
 h2 {
   white-space: nowrap;
   }
+
 
 .logo{
   display: flex;
@@ -16,7 +58,9 @@ h2 {
   padding: auto;
   vertical-align: middle;
 }
---
+
+*/
+
 .enlace {
     display: flex;
     align-items: last baseline;
@@ -29,52 +73,11 @@ h2 {
     font-size: 2 rem;
   }
 
-* {
-    padding:0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-nav{
-  background: #ffffff;
-  height: 60px;
-  width: 100%;
-  box-shadow: 1px 1px 5px;
-}
 
-nav ul{
-  float: right;
-  margin-right: 50px;
-}
 
-nav ul li{
-  display: inline-block;
-  line-height: 35px;
-  margin: 0 5px;
-}
 
-nav ul li a{
-  color: rgb(0, 0, 0);
-  font-size: 16px;
-  padding: 7px 13px;
-  border-radius: 4px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 
-li a.active{
-  background: #ccae93;
-  transition: .5s;
-  color: #ffffff;
-}
-
-li a:hover{
-  background: #ccae93;
-  transition: .5s;
-  color: rgb(255, 255, 255);
-}
-
+/*
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
@@ -91,7 +94,6 @@ li a:hover{
   }
 }
 
-
 @media (max-width: 768px){
 .about-img {
     border-right: medium none;
@@ -100,9 +102,6 @@ li a:hover{
 nav ul li a{
   font-size: 14px;
   padding: 4px 6px;
-}
-nav ul{
-  margin-right: 0px;
 }
 }
 
@@ -119,7 +118,10 @@ nav ul{
     margin-right: 0px;
   }
   }
+  */
+
 /* Columnas descripcion botox,acido hialuronico y prp */
+/*
 .welcome-about {
   padding-bottom: 100px;
   padding-top: 90px;
@@ -251,9 +253,9 @@ footer{
   background: #e1e1e1 none repeat scroll 0 0;
   padding: 20px;
 }
- 
+*/
   /* Estilo básico para el formulario */
-
+/*
 #Formulario {
     position: fixed;
     bottom: 20px;
@@ -288,7 +290,9 @@ footer{
   #Formulario form button {
     margin-top: 20px;
   }
+  */
 /* Footer */
+/*
 .pie {
   background-color: #f5f5f5;
   padding: 20px;
@@ -302,7 +306,8 @@ footer{
   height: 350px;
   
 }
-
+*/
+/*
 .section div{
   display: flex;
   flex-direction: column;
@@ -324,7 +329,8 @@ footer{
   vertical-align: center;
 
 }
-
+*/
+/*
 .Contactenos,
 .Sobre-Nosotros,
 .Sitio-Web {
@@ -369,9 +375,10 @@ footer{
   padding-top: 10px;
   padding-left: 25px;
 }
+*/
 /* Api */
 
-
+/*
 
 h1 {
   font-size: 2em;
@@ -380,7 +387,7 @@ h1 {
   margin-bottom: 20px;
   color: #c22020;
 }
-
+*/
 .weather-data {
   display: flex;
   flex-direction: column;
