@@ -86,7 +86,36 @@ section {
   text-transform: uppercase;
 }
 
-
+/* Estilos al Footer */
+.footer-top {
+  margin: 30px 0 0;
+  padding-top: 30px;
+  background: #ccae93 none repeat scroll 0 0;
+}
+.single-footer ul li a {
+  color: #5e5e5e;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.single-footer.quick-links li:before {
+  background: #5e5e5e none repeat scroll 0 0;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 5px;
+}
+.single-footer.quick-links li {
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+.footer-bottom {
+  background: #e1e1e1 none repeat scroll 0 0;
+  padding: 10px;
+}
 
 
 /*
@@ -237,32 +266,7 @@ footer{
   position: relative;
 }
 
-.single-footer ul li a {
-  color: #757575;
-  text-transform: capitalize;
-  text-decoration: none;
-}
 
-.single-footer.quick-links li:before {
-  background: #757575 none repeat scroll 0 0;
-  content: "";
-  height: 5px;
-  left: 0;
-  position: absolute;
-  top: 4px;
-  width: 5px;
-}
-.single-footer.quick-links li {
-  display: block;
-  margin-bottom: 15px;
-  padding-left: 15px;
-  position: relative;
-}
-
-.footer-bottom {
-  background: #e1e1e1 none repeat scroll 0 0;
-  padding: 20px;
-}
 */
   /* Estilo básico para el formulario */
 /*
