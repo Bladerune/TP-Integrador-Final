@@ -1,3 +1,4 @@
+/* limpia pagina al cargar*/
 * {
   padding:0;
   margin: 0;
@@ -5,7 +6,7 @@
   list-style: none;
   box-sizing: border-box;
 }
-
+/*Estilos barra Menu Principal*/
 .navbar {
   box-shadow: 1px 1px 5px;
 }
@@ -40,14 +41,26 @@
   transition: .5s;
   color: rgb(255, 255, 255);
 }
-
+/* espaciado carrucel*/
 section {
   margin: 50px 0 60px;
 }
-
+/* espaciado bienvenida*/
 .Description {
   margin: 50px 0 60px;
 }
+
+/*Estilo seccion Description*/
+.column {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.column p {
+ padding: 20px;
+}
+
 
 /*
 h2 {
@@ -129,20 +142,9 @@ nav ul li a{
 
 /* Columnas descripcion botox,acido hialuronico y prp */
 /*
-.welcome-about {
-  padding-bottom: 100px;
-  padding-top: 90px;
-}
 
-.column {
-  flex: 1;
-  padding: 10px;
-  text-align: center;
-}
 
-.column p {
- padding: 20px;
-}
+
 
 .logo whatsapp{
   display: flex;
