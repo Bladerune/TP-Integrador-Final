@@ -86,6 +86,7 @@ section {
   text-transform: uppercase;
 }
 
+/* Estilos de las Cards*/
 .card {
   width: 250px;
   background-color: #f2f2f2;
@@ -93,7 +94,6 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
-
 .card img {
   width: 150px;
   height: 150px;
@@ -107,7 +107,6 @@ section {
   text-align: center;
   margin-bottom: 5px;
 }
-
 .card a {
   font-size: 1.2em;
   text-align: center;
@@ -118,11 +117,6 @@ section {
   text-align: center;
   margin-bottom: 5px;
 }
-
-
-
-
-
 
 /* Estilos al Footer */
 .footer-top {
@@ -158,6 +152,32 @@ section {
   background: #e1e1e1 none repeat scroll 0 0;
   padding: 10px;
 }
+
+/* Estilos API*/
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.weather-data__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+.weather-data__icon {
+  margin-right: 10px;
+}
+
+
 
 
 /*
@@ -414,27 +434,3 @@ h1 {
   color: #c22020;
 }
 */
-.weather-data {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.weather-data__item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1em;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-}
-
-.weather-data__icon {
-  margin-right: 10px;
-}
