@@ -12,6 +12,21 @@ body{
     background-color: rgb(29, 29, 29);
 }
 
+.btn-cancelar{
+    width: 60px;
+    height: 60px;
+    padding: 12px 15px;
+    background: #ff0000;
+    color: white;
+    border: 4px solid;
+    border-radius: 40%;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    top: -285px;
+    right: -445px;
+}
+
 .container{
     width: 350px;
     background: #ffff;
