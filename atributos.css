@@ -26,6 +26,12 @@
   text-decoration: none;
   color: black;
 }
+.nav-item #turno{
+  border-style: solid;
+  border-color: #ccae93;
+  border-width: 1px;
+  border-radius: 5px;
+}
 .nav-item li{
   text-align: center;
 }
